@@ -1,7 +1,7 @@
 $('#btn-send').click(function() {
   // Please set your email in url field
   $.ajax({
-      url: "https://formspree.io/YOUR_EMAIL@HERE",  
+      url: "https://formspree.io/olena.kutsir@gmail.com",  
       method: "POST",
       data: {
              email: email.value,
